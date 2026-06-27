@@ -25,7 +25,7 @@ date: 2026-06-27
 ### 🟡 二级风险：个人信息（Email, IP, 路径）
 - **真阳性 (报告它)**：
   - 真实的个人邮箱（如包含姓名拼音的邮箱）、内网 IP (`10.x.x.x`)。
-  - 本机绝对路径泄露（如 `/Users/wangermazi/Desktop/my_secret_project/...`），暴露了系统用户名。
+  - 本机绝对路径泄露（如 `/Users/username/Desktop/my_secret_project/...`），暴露了系统用户名。
 - **假阳性 (忽略它)**：
   - 开源协议中的 `author@example.com`
   - 默认的 `127.0.0.1` 绑定地址
