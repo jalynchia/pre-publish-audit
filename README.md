@@ -1,5 +1,5 @@
 ---
-name: "pre-publish-audit"
+title: "pre-publish-audit"
 description: "代码、Skills 上传发布或分享给其他人前的本地安全扫描 Skill，可以检测其中是否包含 API 密钥、密码、敏感个人信息等，以及是否缺少基础规范文件。"
    version: 1.0.0
    date: 2026-06-27
